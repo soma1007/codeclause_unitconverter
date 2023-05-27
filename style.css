@@ -1,0 +1,82 @@
+/* body{
+    margin: 0;
+    padding: 0;
+}
+
+.converter-body{
+    margin: 900px;
+    padding: 150px;
+    height: 600px;
+    background: ;
+
+} */
+
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300&display=swap");
+
+
+
+body{
+	margin: 20px;
+	padding: 20px;
+	background-image: url(https://wallpaperaccess.com/full/4258401.jpg);
+	
+}
+.converter-body{
+	width: 450px;
+	height: 400px;
+	position: fixed;
+	bottom: 20px;
+	right: 10px;
+	transform: translate(-50%,-50%);
+	box-shadow: 0px 0px 10px white;
+	background-image: url(https://img.freepik.com/free-photo/abstract-backdrop-with-curved-wave-pattern-design-generated-by-ai_188544-15570.jpg);
+	background-color: rgb(34, 207, 18);
+	border: 2px solid rgb(84, 26, 242);
+	border-radius : 50px;
+
+}
+
+
+
+.converter-title{
+	
+	text-align: center;
+	margin: 30px 0px;
+	color: #eeeff0;
+	font-size: 50px;
+    font-weight: bolder;
+	text-decoration: underline;
+}
+input{
+	height: 25px;
+	text-align: center;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 5px;
+}
+
+#input{
+	margin-left: 25px;
+	font-weight: bold;
+	box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+#inputType,#resultType{
+	width: 164.66px;
+	margin-left: 25px;
+	color: rgb(8, 3, 20);
+	border: 2px solid rgb(21, 3, 3);
+	font-weight: bold;
+	text-align: center;
+	margin-top: 15px;
+	border-radius: 5px;
+	height: 24px;
+	box-shadow: 0px 0px 10px black;
+}
+#resultType{
+	margin-left: 12.5px;
+	font-weight: bolder;
+}
+
+#result{
+    font-weight: bold;
+
+}
